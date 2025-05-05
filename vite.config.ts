@@ -27,6 +27,8 @@ export default defineConfig({
             },
             includeAssets: ['logo.png'],
             manifest: {
+              theme_color: '#000000', // Add this
+              background_color: '#ffffff',
               name: 'Portfolio',
               short_name: 'Portfolio',
               description: 'Personal Portfolio',
